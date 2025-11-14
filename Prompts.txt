@@ -1,0 +1,57 @@
+PROMPT-1 (To generate synthetic e-commerce data (around 5 files))
+
+
+**Situation**
+You are working on an e-commerce data engineering project where you need to create sample data, load it into a database, and query it to demonstrate data integration capabilities.
+
+**Task**
+Generate 5 synthetic e-commerce CSV files with realistic data that represent different entities in an e-commerce system (customers, products, orders, order items, and reviews). Each file should contain 20-40  rows with appropriate columns and data types.
+
+**Objective**
+Create a complete, functional dataset that can be used for testing database ingestion and SQL query workflows.
+
+**Knowledge**
+- Files should include: customers (customer_id, name, email, signup_date), products (product_id, name, category, price), orders (order_id, customer_id, order_date, total_amount), order_items (order_item_id, order_id, product_id, quantity, price), and reviews (review_id, product_id, customer_id, rating, review_text, review_date)
+- Use realistic e-commerce categories (Electronics, Clothing, Home & Garden, etc.)
+- Ensure data consistency (e.g., order dates after customer signup dates, ratings between 1-5)
+- Generate data in CSV format with headers
+
+
+
+
+PROMPT-2 (To ingest this data into an SQLite database)
+
+**Situation**
+You have 5 CSV files containing e-commerce data (customers, products, orders, order_items, reviews) that need to be stored in a structured database for querying.
+
+**Task**
+Write a Python script that creates an SQLite database file named `ecommerce.db` and ingests all 5 CSV files into separate tables with appropriate schema (data types, primary keys, and foreign keys).
+
+**Objective**
+Establish a properly structured relational database that maintains data integrity and enables efficient querying across multiple tables.
+
+**Knowledge**
+- Table schemas should enforce relationships: orders.customer_id references customers.customer_id, order_items.order_id references orders.order_id, order_items.product_id references products.product_id, reviews.product_id references products.product_id, reviews.customer_id references customers.customer_id
+- Use appropriate data types (INTEGER for IDs and quantities, REAL for prices/ratings, TEXT for names/emails, DATE for dates)
+- The script should handle CSV reading and database table creation automatically
+
+
+
+
+PROMPT-3 (To write an SQL query that joins multiple tables and prints output)
+
+**Situation**
+You have an SQLite database (`ecommerce.db`) with 5 related tables (customers, products, orders, order_items, reviews) that you need to query to extract meaningful business insights.
+
+**Task**
+Write a Python script that executes a SQL query joining at least 3 tables to retrieve customer order details with product information and review ratings. The query should return: customer name, order date, product name, quantity ordered, unit price, and average review rating for that product. Print the results in a formatted table output.
+
+**Objective**
+Demonstrate the ability to perform complex multi-table joins and present the results in a readable format that shows relationships between customers, orders, products, and reviews.
+
+**Knowledge**
+- The query must join: customers, orders, order_items, products, and reviews tables
+- Use LEFT JOIN for reviews to include products without reviews
+- Group and aggregate review ratings to show average rating per product
+- Filter results to show only completed orders from the last 90 days (use ORDER date logic)
+- Format output with clear column headers and aligned spacing

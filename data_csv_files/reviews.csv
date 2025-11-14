@@ -1,0 +1,30 @@
+review_id,product_id,customer_id,rating,review_text,review_date
+1,22,9,2,"Outstanding product, very satisfied!",2022-02-06
+2,13,17,1,Good quality for the price.,2022-02-23
+3,31,17,1,Could be improved.,2024-09-30
+4,13,14,4,Good but has some flaws.,2023-10-25
+5,10,17,1,Best purchase I've made!,2021-05-09
+6,12,17,4,Good quality for the price.,2024-03-23
+7,16,10,4,"Poor quality, disappointed.",2021-04-09
+8,34,11,4,Not recommended.,2023-10-23
+9,33,12,5,Could be improved.,2022-08-26
+10,31,18,3,Love it! Will buy again.,2023-10-27
+11,18,3,4,Love it! Will buy again.,2024-10-15
+12,29,17,3,Love it! Will buy again.,2021-10-03
+13,22,17,5,"Not what I expected, but okay.",2023-02-11
+14,10,7,4,"Poor quality, disappointed.",2022-07-20
+15,14,29,4,Best purchase I've made!,2021-02-27
+16,35,28,4,Good quality for the price.,2024-04-10
+17,27,2,5,Great product! Highly recommend.,2022-10-10
+18,25,27,1,Perfect for my needs.,2023-11-19
+19,25,3,5,Great features and design.,2024-07-03
+20,15,20,2,"Average quality, could be better.",2024-08-20
+21,32,14,4,Not worth the money.,2021-10-28
+22,26,9,4,"Poor quality, disappointed.",2022-07-03
+23,35,20,4,Works as advertised.,2023-12-28
+24,2,25,4,"Poor quality, disappointed.",2020-08-31
+25,12,11,3,Good but has some flaws.,2022-04-24
+26,14,28,3,Not worth the money.,2024-04-04
+27,27,17,1,Very happy with this purchase.,2022-09-26
+28,35,1,3,Love it! Will buy again.,2021-11-07
+29,5,3,1,Love it! Will buy again.,2023-06-11

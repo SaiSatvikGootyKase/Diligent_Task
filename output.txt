@@ -1,0 +1,29 @@
+﻿========================================================================================================================
+CUSTOMER ORDER DETAILS WITH PRODUCT INFORMATION AND REVIEW RATINGS
+Orders from the last 90 days (since 2024-09-25)
+========================================================================================================================
+
+  Customer Name   |   Order Date   |         Product Name        |   Quantity   |   Unit Price ($)  |   Avg Rating   |   Review Count 
+--------------------------------------------------------------------------------------------------------------------------------------
+Paul Garcia       |   2024-12-24   | Face Cream Standard         |            1 |           $285.68 |            N/A |               0
+Paul Garcia       |   2024-12-24   | Laptop Deluxe               |            2 |           $631.16 |            N/A |               0
+Paul Garcia       |   2024-12-24   | Tea Set Premium             |            3 |           $734.58 |            3.5 |               2
+Jennifer Nguyen   |   2024-12-01   | Dumbbells Pro               |            3 |           $248.45 |            2.5 |               2
+Jennifer Nguyen   |   2024-12-01   | Mirror Max                  |            4 |            $99.99 |            4.0 |               1
+Paul Garcia       |   2024-10-26   | Biography Basic             |            4 |            $30.81 |            N/A |               0
+Paul Garcia       |   2024-10-26   | LEGO Set Plus               |            3 |           $416.98 |            3.0 |               2
+Paul Garcia       |   2024-10-26   | Vitamins Premium            |            3 |           $927.09 |            5.0 |               1
+Betty Jackson     |   2024-10-09   | Car Battery Elite           |            5 |           $972.16 |            N/A |               0
+Betty Jackson     |   2024-10-09   | Honey Standard              |            1 |           $929.61 |            N/A |               0
+Jennifer Nguyen   |   2024-10-05   | Comic Plus                  |            5 |           $995.19 |            4.0 |               1
+Jennifer Nguyen   |   2024-10-05   | Nail Polish Max             |            2 |           $129.78 |            N/A |               0
+
+Total records: 12
+
+========================================================================================================================
+SUMMARY STATISTICS
+========================================================================================================================
+Total orders in last 90 days: 5
+Total unique customers: 3
+Total unique products ordered: 12
+Products with reviews: 6
